@@ -1,0 +1,75 @@
+.nuestras-casas-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.map-wrapper {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  max-width: 1800px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  margin-top: 100px;
+}
+
+.Casa-Victoria-Container,
+.Casa-Chiclayo-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.La-Victoria-Text,
+.Chiclayo-Text {
+  max-width: 50%;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.Chiclayo-Text {
+  text-align: right;
+  padding-left: 20px;
+}
+
+.La-Victoria-Title,
+.Chiclayo-Title {
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.La-Victoria-Description,
+.Chiclayo-Description {
+  font-size: 18px;
+  color: #555;
+}
+
+.La-Victoria-Image,
+.Chiclayo-Image {
+  max-width: 45%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.La-Victoria-Image:hover,
+.Chiclayo-Image:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
